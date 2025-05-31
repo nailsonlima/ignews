@@ -1,18 +1,19 @@
-# 🔥 Ignews
+# <div align="center">🔥 Ignews</div>
 <p>O <strong>Ignews</strong> é uma aplicação web para assinatura de conteúdos sobre tecnologia. Ele integra autenticação via GitHub, pagamentos via Stripe e gerenciamento de dados com Firebase. É um projeto focado em performance, escalabilidade e boas práticas de desenvolvimento moderno com Next.js. 🚀
 
 
-🚀 Tecnologias  
+## 🚀 Tecnologias
 
-- 🧠 Next.js
-- ⚛️ React.js
-- ☁️ Firebase
-- 💰 Stripe
-- 🌐 TypeScript
-- 💄 Sass
-- 🔗 NextAuth.js
+- 🧠 [Next.js](https://nextjs.org/)
+- ⚛️ [React.js](https://react.dev/)
+- ☁️ [Firebase](https://firebase.google.com/)
+- 💰 [Stripe](https://stripe.com/)
+- 🌐 [TypeScript](https://www.typescriptlang.org/)
+- 💄 [Sass](https://sass-lang.com/)
+- 🔗 [NextAuth.js](https://next-auth.js.org/)
 
-## 🧠 Funcionalidades
+
+## <div align="center">🧠 Funcionalidades</div>
 - Login com conta do GitHub
 - Checkout de assinatura integrado com Stripe
 - Validação de assinaturas ativas
@@ -21,11 +22,11 @@
 - CMS integrado via Stripe (planos e pagamentos)
 - Persistência de dados no Firebase
 
-## 📸 Telas do projeto
+## <div align="center">📸 Telas do projeto</div>
 <p>🔸 Página inicial (deslogado)</p> <img src="./assets/paginahomedeslogada.png" alt="Página Home Deslogado"/> <p>🔸 Listagem de posts (logado)</p> <img src="./assets/postslogado.png" alt="Posts com usuário logado"/> <p>🔸 Visualização do preview do post</p> <img src="./assets/postpreview.png" alt="Post Preview"/> <p>🔸 Visualização do post completo (logado e com assinatura ativa)</p> <img src="./assets/postlogado.png" alt="Post completo logado"/>
 
 
-## ⚙️ Como rodar localmente
+## <div align="center">⚙️ Como rodar localmente</div>
 
 ````
 # Clone o repositório
@@ -48,7 +49,7 @@ http://localhost:3000
 
 ````
 
-## Acesse no navegador
+## <div align="center">🖥️ Acesse no navegador</div>
 ```
 http://localhost:3000
 
@@ -70,10 +71,10 @@ FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 FIREBASE_APP_ID=your_app_id
 ```
 
-🤝 Contribuição
+🤝 Contribuição::  
 Sinta-se livre para usar, sugerir melhorias ou contribuir com este projeto. Toda colaboração é bem-vinda! 🚀
 
-👨‍💻 Autor
+👨‍💻 Autor:  
 Feito com dedicação e muito café por Nailson Lima ☕🚀
 
 🎯 Agradecimento:  
