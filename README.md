@@ -51,7 +51,7 @@ http://localhost:3000
 
 ## <div align="center">🖥️ Acesse no navegador</div>
 ```
-http://localhost:3000
+http://localhost:3000/
 
 🗂️ Variáveis de ambiente (.env.local)
 GITHUB_CLIENT_ID=your_client_id
