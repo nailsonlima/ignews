@@ -75,7 +75,7 @@ FIREBASE_APP_ID=your_app_id
 Sinta-se livre para usar, sugerir melhorias ou contribuir com este projeto. Toda colaboração é bem-vinda! 🚀
 
 👨‍💻 Autor:  
-Feito com dedicação e muito café por Nailson Lima ☕🚀
+Feito com dedicação e muito café por Nailson Lima! ☕🚀
 
 🎯 Agradecimento:  
 Obrigado por acessar este projeto! 💜
