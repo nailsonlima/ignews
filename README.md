@@ -1,5 +1,5 @@
 # <div align="center">🔥 Ignews</div>
-<p>O <strong>Ignews</strong> é uma aplicação web para assinatura de conteúdos sobre tecnologia. Ele integra autenticação via GitHub, pagamentos via Stripe e gerenciamento de dados com Firebase. É um projeto focado em performance, escalabilidade e boas práticas de desenvolvimento moderno com Next.js. 🚀
+<p>O <strong>Ignews</strong> é uma aplicação web para assinatura de conteúdos sobre tecnologia. Ele integra autenticação via GitHub, pagamentos via Stripe e gerenciamento de dados com Firebase. É um projeto focado em performance, escalabilidade e boas práticas de desenvolvimento moderno com Next.js 🚀
 
 
 ## 🚀 Tecnologias
