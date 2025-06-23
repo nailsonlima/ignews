@@ -1,8 +1,12 @@
-name: Atualizar README
+name: Atualizar README de forma aleatória
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '7 3 * * *'
+    - cron: '12 7 * * *'
+    - cron: '25 10 * * *'
+    - cron: '33 14 * * *'
+    - cron: '51 18 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,16 +14,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Clonar repositório
         uses: actions/checkout@v3
 
-      - name: Atualizar README
+      - name: Atualizar README (chance aleatória)
         run: |
-          echo "🕒 Atualizado em $(date '+%d/%m/%Y %H:%M:%S')" >> README.md
-          git config --global user.name 'nailsonlima'
-          git config --global user.email '78036929+nailsonlima@users.noreply.github.com'
-          git add README.md
-          git commit -m "update automático no README" || echo "Sem alterações"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push origin HEAD:main
+          RANDOM_NUM=$((RANDOM % 5))
+          echo "Número sorteado: $RANDOM_NUM"
+          
+          if [ "$RANDOM_NUM" -ne 0 ]; then
+            echo "🕒 Atualizado em $(date '+%d/%m/%Y %H:%M:%S')" >> README.md
+            git config --global user.name 'nailsonlima'
+            git config --global user.email '78036929+nailsonlima@users.noreply.github.com'
+            git add README.md
+            git commit -m "update automático no README"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+            git push origin HEAD:main
+          else
+            echo "Nada feito. Hoje não, Faro!"
+          fi
